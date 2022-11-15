@@ -6,6 +6,7 @@
   --warm-black: #282623;
   --black: #201e1c;
   --grey: #bababa;
+  --grey-text: #757575;
   --off-white: #faf8f7;
   --just-white: #fff;
 }
@@ -110,10 +111,7 @@ main {
   height: 200px;
   margin: 0 auto;
   margin-bottom: 50px;
-  background-image: url('../assets/img/Bitcoin.svg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url('../assets/img/Bitcoin.svg') center/cover no-repeat;
 }
 .main-exchange-container h2 {
   margin-bottom: 30px;
@@ -127,5 +125,33 @@ main {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.6rem;
-  color: #757575;
+  color: var(--grey-text);
+}
+/*Table -  grid*/
+.section-exchanges--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  justify-content: center;
+}
+
+.trending-down span {
+  background-image: url('../assets/icons/trending-down.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 2px;
+  left: 4px;
+}
+.trending-up span {
+  background-image: url('../assets/icons/trending-up.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 2px;
+  left: 4px;
+}
+.currency-exchanges--date {
+  background-color: var(--soft-orange);
+  padding-top: 20px;
 }
