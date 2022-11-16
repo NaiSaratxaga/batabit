@@ -137,6 +137,7 @@ main {
   font-family: 'Inter', sans-serif;
 }
 .main-currency-table .currency-table--title {
+  margin-left: 10px;
   margin-bottom: 15px;
   font-size: 1.8rem;
   font-weight: bold;
@@ -205,6 +206,7 @@ main {
 }
 .currency-table--date p {
   font-size: 1.2rem;
+  font-weight: 300;
   line-height: 1.5rem;
   color: var(--warm-black);
 }
@@ -227,6 +229,7 @@ main {
 }
 .comision-table--date p {
   font-size: 1.2rem;
+  font-weight: 300;
   line-height: 1.5rem;
   color: var(--warm-black);
 }
