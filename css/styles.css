@@ -10,6 +10,7 @@
   --off-white: #faf8f7;
   --just-white: #fff;
   --text-product: #808080;
+  --btn-basic: #d0448c;
 }
 * {
   box-sizing: border-box;
@@ -425,8 +426,75 @@ main {
   font-weight: bold;
   line-height: 1.8rem;
   color: var(--black);
+  cursor: pointer;
 }
 .plan-card--cta span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../assets/icons/orange-right-arrow.svg');
+  vertical-align: text-bottom;
+}
+.basic {
+  position: absolute;
+  width: 120px;
+  height: 31px;
+  padding: 6px;
+  top: -15px;
+  left: calc(50% - 60px);
+  font-size: 1.2rem;
+  background-color: var(--btn-basic);
+  border-radius: 8px;
+  color: var(--just-white);
+}
+.plan-basic--cta {
+  width: 150px;
+  height: 48px;
+  margin-top: 20px;
+  background-color: var(--off-white);
+  border: 2px solid var(--btn-basic);
+  border-radius: 4px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--black);
+  cursor: pointer;
+}
+.plan-basic--cta span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../assets/icons/orange-right-arrow.svg');
+  vertical-align: text-bottom;
+}
+.premium {
+  position: absolute;
+  width: 120px;
+  height: 31px;
+  padding: 6px;
+  top: -15px;
+  left: calc(50% - 60px);
+  font-size: 1.2rem;
+  background-color: var(--secondary-blue);
+  border-radius: 8px;
+  color: var(--just-white);
+}
+.plan-premium--cta {
+  width: 150px;
+  height: 48px;
+  margin-top: 20px;
+  background-color: var(--off-white);
+  border: 2px solid var(--secondary-blue);
+  border-radius: 4px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--black);
+  cursor: pointer;
+}
+.plan-premium--cta span {
   display: inline-block;
   width: 20px;
   height: 20px;
