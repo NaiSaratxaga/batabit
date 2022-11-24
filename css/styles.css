@@ -102,7 +102,7 @@ main {
   padding-bottom: 30px;
   text-align: center;
 }
-.main-exchange-container--title {
+.main-exchange-container__title {
   width: 90%;
   min-width: 288px;
   max-width: 900px;
@@ -332,6 +332,7 @@ main {
   height: 50vh;
   background: url('../assets/img/bitcoinbaby2x.jpg') center/cover no-repeat;
   text-align: center;
+  background-attachment: fixed;
 }
 .bitcoin-img-container h2 {
   padding-top: 60px;
@@ -389,6 +390,31 @@ main {
   overscroll-behavior: contain;
   scroll-snap-type: x proximity;
 }
+/*Arrows*/
+.plans-container--slider .arrow-left {
+  transform: rotate(90deg);
+  left: 20px;
+}
+.plans-container--slider .arrow-left {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  background: url('../assets/icons/down-arrow.svg') no-repeat center/cover;
+}
+.plans-container--slider .arrow-right {
+  transform: rotate(-90deg);
+  left: 20px;
+}
+.plans-container--slider .arrow-right {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  background: url('../assets/icons/down-arrow.svg') no-repeat center/cover;
+}
+/*End Arrows*/
+
 .recommended {
   position: absolute;
   width: 120px;
