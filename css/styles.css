@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --bitcoin-orange: #f7931a;
   --soft-orange: #ffe9d5;
@@ -11,11 +17,6 @@
   --just-white: #fff;
   --text-product: #808080;
   --btn-basic: #d0448c;
-}
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 html {
