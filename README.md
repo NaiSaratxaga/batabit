@@ -6,7 +6,11 @@ _I created this project to practice Responsive Design, mobile-first. It is based
 
 ## DEMO 
 
-https://user-images.githubusercontent.com/99652446/208649070-481ee736-4bfa-4800-bfc2-a7e7f967a2b1.mp4
+
+https://user-images.githubusercontent.com/99652446/208670703-c7241103-5ed8-4930-ab38-9476ea1571ea.mp4
+
+
+
 
 ## 🛠️ Built with:
 
