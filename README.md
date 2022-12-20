@@ -4,6 +4,10 @@
 
 _I created this project to practice Responsive Design, mobile-first. It is based on a course from Platzi's School._
 
+## DEMO 
+
+https://user-images.githubusercontent.com/99652446/208649070-481ee736-4bfa-4800-bfc2-a7e7f967a2b1.mp4
+
 ## 🛠️ Built with:
 
 - Responsive Designe
@@ -18,6 +22,7 @@ _I created this project to practice Responsive Design, mobile-first. It is based
 ## 👀 Where you can see
 
 [The project](https:///)
+
 
 ## Made with ❤️ by
 
