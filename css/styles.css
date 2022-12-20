@@ -130,7 +130,16 @@ main {
   line-height: 1.6rem;
   color: var(--grey-text);
 }
-/*Table -   change to grid*/
+/*Table */
+.main-tables-container {
+  display: flex;
+  gap: 150px;
+  height: 370px;
+  padding: 0 75px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
 .main-currency-table {
   width: 70%;
   min-width: 235px;

@@ -1,7 +1,11 @@
 .main-tables-container {
   display: flex;
-  width: 930px;
-  margin: 0 auto;
+  gap: 150px;
+  height: 370px;
+  padding: 0 75px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
 }
 .product-cards--container {
   display: flex;
